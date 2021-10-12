@@ -1,12 +1,6 @@
-# BitBirds generation script
+# CrazyAliens generation script
 # Intro
-This is published under MIT license, which means you can do whatever you want with it - entirely at your own risk.
-
-Please don't be an asshole. This is, like, grassroots and stuff. 
-
-Specifically I'm asking you in good faith not to directly knock off the BitBirds project, or otherwise screw me over for sharing this. Do not use this for anything hateful or discriminatory.
-
-There is a YouTube video walkthrough to complement this ReadMe [...Link...](https://youtu.be/vTxjLLHncMo).
+This the repository for crazyAliens programmatically generated NFTs.
 
 # Setting the expectations
 If you're new to programming you may struggle to set up the dependencies. If you're persistent, you can do it! I believe in you. 
@@ -18,7 +12,7 @@ Even having set up a number of dependencies just a few weeks ago for this projec
 # Dependencies
 The dependenices were all installed with the terminal/command line. There is documentation abound about terminal generally, and these tools specifically, but unfortunately I did not save copies of the web pages I used. From memory the things I needed to setup were:
 
-- Python 3 (default on my mac was python 2.7)
+- Python 3 (tested on Python 3.8)
 
 - PIP - a command-line installation mechanism for python assets. 
 
@@ -33,7 +27,6 @@ IIRC I needed to use some special command with python 3 to use pip as an install
 If you encounter specific setup items I haven't mentioned here let me know, and I'll add them.
 
 # How this script works
-The [video](https://youtu.be/vTxjLLHncMo) I've put on YouTube complements this overview. 
 
 We are iterating through a 'loop' once for each bird. The loop starts with a 'seed number' that is used to deterministically generate pseudo-random numbers. I say 'deterministically' and 'pseudo-random' because from the same seed number the 'random' output will always be the same. It's not truly random in a security or mathematical sense. I used the most recent ETH block at the time as my seed number - 11981207.
 
