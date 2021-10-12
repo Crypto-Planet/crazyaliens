@@ -1,6 +1,6 @@
 # CrazyAliens generation script
 # Intro
-This the repository for crazyAliens programmatically generated NFTs. The repository is based on https://github.com/nft-fun/generate-bitbirds repository.
+This is the repository for crazyAliens, which is a collection of programmatically generated NFTs. The repository is based on https://github.com/nft-fun/generate-bitbirds repository.
 
 # Dependencies
 
