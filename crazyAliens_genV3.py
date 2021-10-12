@@ -16,8 +16,7 @@ from random import randint
 from random import choice
 
 # gets path to be used in image creation mechanism, using os.
-dirname = os.path.dirname(__file__)
-# dirname = os.path.dirname('~/nftCol/crazyAliens/alien_images')
+dirname = os.path.dirname(os.path.abspath("__file__"))
 
 # sets final image dimensions as 480x480 pixels
 # the original 24x24 pixel image will be expanded to these dimensions
