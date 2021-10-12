@@ -44,6 +44,10 @@ From there, you're just about home free. The final bit of the loop re-sizes the 
 
 Then it goes right back to the top of the loop, and does it again for the next alien, until the number of defined loops is completed. 
 
+In each iteration, the algorithm checks if the image that has been composed, exists from an older iteration. If that is True, it skips that iteration and goes to the next iteration.
+
+It's worth to mention that, after the generation of the images, you can run the file "unique.py" in order to check if the images that you created are unique. If not the doubled images are stored in a folder which is called "identical_images". This file ensures for a 100% that all the aliens from the collection is unique.
+
 # Wrap up
 I sincerely hope this inspires someone to learn a new skill, take up coding, or generally expand their horizons! 
 
